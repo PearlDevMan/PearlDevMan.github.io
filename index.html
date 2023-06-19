@@ -412,16 +412,16 @@
 
           <h3 class="resume-title">Education</h3>
           <div class="resume-item">
-            <h4>Master of Fine Arts &amp; Graphic Design</h4>
-            <h5>2015 - 2016</h5>
-            <p><em>Rochester Institute of Technology, Rochester, NY</em></p>
-            <p>Qui deserunt veniam. Et sed aliquam labore tempore sed quisquam iusto autem sit. Ea vero voluptatum qui ut dignissimos deleniti nerada porti sand markend</p>
+            <h4 id="edu1_degree">Master of Fine Arts &amp; Graphic Design</h4>
+            <h5 id="edu1_period">2015 - 2016</h5>
+            <p><em id="edu1_name">Rochester Institute of Technology, Rochester, NY</em></p>
+            <p id="edu1_comment">Qui deserunt veniam. Et sed aliquam labore tempore sed quisquam iusto autem sit. Ea vero voluptatum qui ut dignissimos deleniti nerada porti sand markend</p>
           </div>
           <div class="resume-item">
-            <h4>Bachelor of Fine Arts &amp; Graphic Design</h4>
-            <h5>2010 - 2014</h5>
-            <p><em>Rochester Institute of Technology, Rochester, NY</em></p>
-            <p>Quia nobis sequi est occaecati aut. Repudiandae et iusto quae reiciendis et quis Eius vel ratione eius unde vitae rerum voluptates asperiores voluptatem Earum molestiae consequatur neque etlon sader mart dila</p>
+            <h4 id="edu2_degree">Bachelor of Fine Arts &amp; Graphic Design</h4>
+            <h5 id="edu2_period">2010 - 2014</h5>
+            <p><em id="edu2_name">Rochester Institute of Technology, Rochester, NY</em></p>
+            <p id="edu2_comment">Quia nobis sequi est occaecati aut. Repudiandae et iusto quae reiciendis et quis Eius vel ratione eius unde vitae rerum voluptates asperiores voluptatem Earum molestiae consequatur neque etlon sader mart dila</p>
           </div>
         </div>
         <div class="col-lg-6">
@@ -786,19 +786,23 @@
         document.getElementById("user_address_resume").innerHTML = data.city+"."+data.country
         document.getElementById("user_phone_resume").innerHTML = data.phone
         document.getElementById("user_email_resume").innerHTML = data.email
-        // document.getElementById("user_").innerHTML = data.
-        // document.getElementById("user_").innerHTML = data.
-        // document.getElementById("user_").innerHTML = data.
-        // document.getElementById("user_").innerHTML = data.
-        // document.getElementById("user_").innerHTML = data.
-        // document.getElementById("user_").innerHTML = data.
-        // document.getElementById("user_").innerHTML = data.
-        // document.getElementById("user_").innerHTML = data.
-        // document.getElementById("user_").innerHTML = data.
-        // document.getElementById("user_").innerHTML = data.
-        // document.getElementById("user_").innerHTML = data.
-        // document.getElementById("user_").innerHTML = data.
-        // document.getElementById("user_").innerHTML = data.email
+        document.getElementById("edu1_name").innerHTML = data.education[0].name
+        document.getElementById("edu1_degree").innerHTML = data.education[0].degree
+        document.getElementById("edu1_period").innerHTML = data.education[0].period
+        document.getElementById("edu1_comment").innerHTML = data.education[0].comment
+        document.getElementById("edu2_name").innerHTML = data.education[1].name
+        document.getElementById("edu2_degree").innerHTML = data.education[1].degree
+        document.getElementById("edu2_period").innerHTML = data.education[1].period
+        document.getElementById("edu2_comment").innerHTML = data.education[1].comment
+        document.getElementById("user_").innerHTML = data.
+        document.getElementById("user_").innerHTML = data.
+        document.getElementById("user_").innerHTML = data.
+        document.getElementById("user_").innerHTML = data.
+        document.getElementById("user_").innerHTML = data.
+        document.getElementById("user_").innerHTML = data.
+        document.getElementById("user_").innerHTML = data.
+        document.getElementById("user_").innerHTML = data.
+        document.getElementById("user_").innerHTML = data.email
       });
   </script>
 </body>

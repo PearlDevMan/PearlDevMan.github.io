@@ -16,16 +16,16 @@
     "summary" : "I have been building software for more than 7+ years. I do software development, architecture, automation, dev management, data centric devops, and appsec. As an entrepreneur I am always on the lookout for the next opportunity. Lots of experience and I work hard to please my clients. ",
     "education" : [
         {
-            "name" : " ",
-            "degree" : " ",
-            "period" : " ",
-            "comment" : " "
+            "name" : "University of California, Berkeley ",
+            "degree" : "Bachelor of Science in Computer Science ",
+            "period" : "2009 - 2013 ",
+            "comment" : "University of California is a highly respected university system in the United States. It offers a diverse range of academic programs and extracurricular activities, and students have access to cutting-edge research and technology. The university system has a diverse student body and provides opportunities for internships and networking. "
         },
         {
-            "name" : " ",
-            "degree" : " ",
-            "period" : " ",
-            "comment" : " "
+            "name" : "University of San Diego, CA ",
+            "degree" : "Master of Science in Applied Data Science ",
+            "period" : "2013 - 2015 ",
+            "comment" : "The University of San Diego is a private Catholic university located in San Diego, California. The university is known for its strong academic programs, particularly in business, law, and engineering. The campus is situated on a beautiful hilltop overlooking the Pacific Ocean and offers a variety of student activities and organizations. Students at USD have access to a range of resources, including research opportunities, internships, and study abroad programs. The university has a diverse student body and is committed to providing a supportive and inclusive community for all students. "
         }
     ]
 }
