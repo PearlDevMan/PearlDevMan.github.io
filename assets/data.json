@@ -1,0 +1,17 @@
+{
+    "name": "Alexander",
+    "role" : "Web Developer",
+    "country" : "Japan",
+    "state" : "Tokyo",
+    "city" : "Tokyo",
+    "address" : "",
+    "bio" : "Hello, visitor. Welcome to my resume site. I want you to get some useful information about me here.",
+    "birthday" : "5/26/2000",
+    "website" : "pearldevman.github.io/pearldevman",
+    "phone" : "+1 276 325 2467",
+    "age" : "23",
+    "degree" : "master",
+    "email" : "pearldevman@gmail.com",
+    "freelancer" : "Available",
+    "summary" : "I have been building software for more than 7+ years. I do software development, architecture, automation, dev management, data centric devops, and appsec. As an entrepreneur I am always on the lookout for the next opportunity. Lots of experience and I work hard to please my clients. "
+}
