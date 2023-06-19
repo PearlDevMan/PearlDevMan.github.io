@@ -13,5 +13,19 @@
     "degree" : "master",
     "email" : "pearldevman@gmail.com",
     "freelancer" : "Available",
-    "summary" : "I have been building software for more than 7+ years. I do software development, architecture, automation, dev management, data centric devops, and appsec. As an entrepreneur I am always on the lookout for the next opportunity. Lots of experience and I work hard to please my clients. "
+    "summary" : "I have been building software for more than 7+ years. I do software development, architecture, automation, dev management, data centric devops, and appsec. As an entrepreneur I am always on the lookout for the next opportunity. Lots of experience and I work hard to please my clients. ",
+    "education" : [
+        {
+            "name" : " ",
+            "degree" : " ",
+            "period" : " ",
+            "comment" : " "
+        },
+        {
+            "name" : " ",
+            "degree" : " ",
+            "period" : " ",
+            "comment" : " "
+        }
+    ]
 }
