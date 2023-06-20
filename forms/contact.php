@@ -7,7 +7,7 @@
   */
 
   // Replace contact@example.com with your real receiving email address
-  $receiving_email_address = 'contact@example.com';
+  $receiving_email_address = 'pearldevman@gmail.com';
 
   if( file_exists($php_email_form = '../assets/vendor/php-email-form/php-email-form.php' )) {
     include( $php_email_form );
@@ -24,14 +24,14 @@
   $contact->subject = $_POST['subject'];
 
   // Uncomment below code if you want to use SMTP to send emails. You need to enter your correct SMTP credentials
-  /*
+  
   $contact->smtp = array(
-    'host' => 'example.com',
-    'username' => 'example',
-    'password' => 'pass',
+    'host' => 'smtp-relay.sendinblue.com',
+    'username' => 'pearldevman@gmail.com',
+    'password' => 'xsmtpsib-b074ced2fec636a08e1fac1ddfd415d2cf25bde4920303772e2575fb326f9131-MHkfjVvq8KSUTxyC',
     'port' => '587'
   );
-  */
+  
 
   $contact->add_message( $_POST['name'], 'From');
   $contact->add_message( $_POST['email'], 'Email');
