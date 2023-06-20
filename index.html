@@ -399,56 +399,56 @@
         <div class="col-lg-6">
           <h3 class="resume-title">Sumary</h3>
           <div class="resume-item pb-0">
-            <h4>Alice Barkley</h4>
-            <p><em>Innovative and deadline-driven Graphic Designer with 3+ years of experience designing and developing user-centered digital/print marketing material from initial concept to final, polished deliverable.</em></p>
+            <h4 id="user_name_resume">Alice Barkley</h4>
+            <p><em id="user_summary_resume">Innovative and deadline-driven Graphic Designer with 3+ years of experience designing and developing user-centered digital/print marketing material from initial concept to final, polished deliverable.</em></p>
             <p>
             <ul>
-              <li>Portland par 127,Orlando, FL</li>
-              <li>(123) 456-7891</li>
-              <li>alice.barkley@example.com</li>
+              <li id="user_address_resume">Portland par 127,Orlando, FL</li>
+              <li id="user_phone_resume">(123) 456-7891</li>
+              <li id="user_email_resume">alice.barkley@example.com</li>
             </ul>
             </p>
           </div>
 
           <h3 class="resume-title">Education</h3>
           <div class="resume-item">
-            <h4>Master of Fine Arts &amp; Graphic Design</h4>
-            <h5>2015 - 2016</h5>
-            <p><em>Rochester Institute of Technology, Rochester, NY</em></p>
-            <p>Qui deserunt veniam. Et sed aliquam labore tempore sed quisquam iusto autem sit. Ea vero voluptatum qui ut dignissimos deleniti nerada porti sand markend</p>
+            <h4 id="edu1_degree">Master of Fine Arts &amp; Graphic Design</h4>
+            <h5 id="edu1_period">2015 - 2016</h5>
+            <p><em id="edu1_name">Rochester Institute of Technology, Rochester, NY</em></p>
+            <p id="edu1_comment">Qui deserunt veniam. Et sed aliquam labore tempore sed quisquam iusto autem sit. Ea vero voluptatum qui ut dignissimos deleniti nerada porti sand markend</p>
           </div>
           <div class="resume-item">
-            <h4>Bachelor of Fine Arts &amp; Graphic Design</h4>
-            <h5>2010 - 2014</h5>
-            <p><em>Rochester Institute of Technology, Rochester, NY</em></p>
-            <p>Quia nobis sequi est occaecati aut. Repudiandae et iusto quae reiciendis et quis Eius vel ratione eius unde vitae rerum voluptates asperiores voluptatem Earum molestiae consequatur neque etlon sader mart dila</p>
+            <h4 id="edu2_degree">Bachelor of Fine Arts &amp; Graphic Design</h4>
+            <h5 id="edu2_period">2010 - 2014</h5>
+            <p><em id="edu2_name">Rochester Institute of Technology, Rochester, NY</em></p>
+            <p id="edu2_comment">Quia nobis sequi est occaecati aut. Repudiandae et iusto quae reiciendis et quis Eius vel ratione eius unde vitae rerum voluptates asperiores voluptatem Earum molestiae consequatur neque etlon sader mart dila</p>
           </div>
         </div>
         <div class="col-lg-6">
           <h3 class="resume-title">Professional Experience</h3>
           <div class="resume-item">
-            <h4>Senior graphic design specialist</h4>
-            <h5>2019 - Present</h5>
-            <p><em>Experion, New York, NY </em></p>
+            <h4 id="exp1_role">Senior graphic design specialist</h4>
+            <h5 id="exp1_period">2019 - Present</h5>
+            <p><em id="exp1_company">Experion, New York, NY </em></p>
             <p>
             <ul>
-              <li>Lead in the design, development, and implementation of the graphic, layout, and production communication materials</li>
-              <li>Delegate tasks to the 7 members of the design team and provide counsel on all aspects of the project. </li>
-              <li>Supervise the assessment of all graphic materials in order to ensure quality and accuracy of the design</li>
-              <li>Oversee the efficient use of production project budgets ranging from $2,000 - $25,000</li>
+              <li>Responsible for designing and building machine learning systems that can learn from data.</li>
+              <li>Large datasets, develop algorithms, and optimize machine learning models for performance and scalability. </li>
+              <li>Create intelligent systems that can improve over time, enabling businesses to make better decisions and improve their products and services.</li>
+              <li>High salaries due to specialized skills and expertise.</li>
             </ul>
             </p>
           </div>
           <div class="resume-item">
-            <h4>Graphic design specialist</h4>
-            <h5>2017 - 2018</h5>
-            <p><em>Stepping Stone Advertising, New York, NY</em></p>
+            <h4 id="exp2_role">Graphic design specialist</h4>
+            <h5 id="exp2_period">2017 - 2018</h5>
+            <p><em id="exp2_company">Stepping Stone Advertising, New York, NY</em></p>
             <p>
             <ul>
-              <li>Developed numerous marketing programs (logos, brochures,infographics, presentations, and advertisements).</li>
-              <li>Managed up to 5 projects or tasks at a given time while under pressure</li>
-              <li>Recommended and consulted with clients on the most appropriate graphic design</li>
-              <li>Created 4+ design presentations and proposals a month for clients and account managers</li>
+              <li>Responsible for developing and maintaining the server-side logic for our web applications. </li>
+              <li>Worked closely with front-end developers and project managers to ensure that our applications were efficient, scalable, and met the needs of our users.</li>
+              <li>Utilized Python frameworks such as Django and Flask to build RESTful APIs and integrate with databases such as MySQL and PostgreSQL.</li>
+              <li>Responsible for writing automated tests to ensure the quality and reliability of our code.</li>
             </ul>
             </p>
           </div>
@@ -781,6 +781,31 @@
         document.getElementById("user_email").innerHTML = data.email
         document.getElementById("user_freelancer").innerHTML = data.freelancer
         document.getElementById("user_summary").innerHTML = data.summary
+        document.getElementById("user_name_resume").innerHTML = data.name
+        document.getElementById("user_summary_resume").innerHTML = data.summary
+        document.getElementById("user_address_resume").innerHTML = data.city+"."+data.country
+        document.getElementById("user_phone_resume").innerHTML = data.phone
+        document.getElementById("user_email_resume").innerHTML = data.email
+        document.getElementById("edu1_name").innerHTML = data.education[0].name
+        document.getElementById("edu1_degree").innerHTML = data.education[0].degree
+        document.getElementById("edu1_period").innerHTML = data.education[0].period
+        document.getElementById("edu1_comment").innerHTML = data.education[0].comment
+        document.getElementById("edu2_name").innerHTML = data.education[1].name
+        document.getElementById("edu2_degree").innerHTML = data.education[1].degree
+        document.getElementById("edu2_period").innerHTML = data.education[1].period
+        document.getElementById("edu2_comment").innerHTML = data.education[1].comment
+        document.getElementById("exp1_company").innerHTML = data.experience[0].company
+        document.getElementById("exp1_role").innerHTML = data.experience[0].role
+        document.getElementById("exp1_period").innerHTML = data.experience[0].period
+        document.getElementById("exp2_company").innerHTML = data.experience[1].company
+        document.getElementById("exp2_role").innerHTML = data.experience[1].role
+        document.getElementById("exp2_period").innerHTML = data.experience[1].period
+        document.getElementById("user_").innerHTML = data.
+        document.getElementById("user_").innerHTML = data.
+        document.getElementById("user_").innerHTML = data.
+        document.getElementById("user_").innerHTML = data.
+        document.getElementById("user_").innerHTML = data.
+        document.getElementById("user_").innerHTML = data.email
       });
   </script>
 </body>
