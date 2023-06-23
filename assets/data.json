@@ -1,10 +1,10 @@
 {
-    "name": "Alexander",
+    "name": "Robert Lee",
     "role" : "Web Developer",
-    "country" : "Japan",
-    "state" : "Tokyo",
-    "city" : "Tokyo",
-    "address" : "Senkawa-dori Avenue",
+    "country" : "United States",
+    "state" : "Massachusetts",
+    "city" : "Portland",
+    "address" : "88 Exchange St",
     "bio" : "Hello, visitor. Welcome to my resume site. I want you to get some useful information about me here.",
     "birthday" : "5/26/2000",
     "website" : "pearldevman.github.io",
@@ -13,13 +13,13 @@
     "degree" : "master",
     "email" : "pearldevman@gmail.com",
     "freelancer" : "Available",
-    "summary" : "I have been building software for more than 7+ years. I do software development, architecture, automation, dev management, data centric devops, and appsec. As an entrepreneur I am always on the lookout for the next opportunity. Lots of experience and I work hard to please my clients. ",
+    "summary" : "I have been building software for more than 5+ years. I do software development, architecture, automation, dev management, data centric devops, and appsec. As an entrepreneur I am always on the lookout for the next opportunity. Lots of experience and I work hard to please my clients. ",
     "education" : [
         {
-            "name" : "University of California, Berkeley ",
-            "degree" : "Bachelor of Science in Computer Science ",
-            "period" : "2011 - 2015 ",
-            "comment" : "University of California is a highly respected university system in the United States. It offers a diverse range of academic programs and extracurricular activities, and students have access to cutting-edge research and technology. The university system has a diverse student body and provides opportunities for internships and networking. "
+            "name" : "Boston University ",
+            "degree" : "Bachelor of computer science ",
+            "period" : "2017 - 2021 ",
+            "comment" : "Boston University is a private research university in Boston, Massachusetts. BU was founded in 1839 by a group of Boston Methodists with its original campus in Newbury, Vermont, before being chartered in Boston in 1869. "
         },
         {
             "name" : "University of San Diego, CA ",
@@ -30,9 +30,9 @@
     ],
     "experience" : [
         {
-            "company" : "SMART Technologies Ferney, SD ",
-            "role" : "Machine Learning Engineer and Team Leader            ",
-            "period" : "2021 - Present "
+            "company" : "Coresystems AG ",
+            "role" : "Senior Backend Engineer ",
+            "period" : "2021 - 2023 "
         },
         {
             "company" : "AI and Robotics Ventures Pittsburgh, PA ",

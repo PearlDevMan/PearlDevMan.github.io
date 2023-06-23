@@ -63,6 +63,7 @@
       <div class="social-links">
         <a href="https://www.github.com/pearldevman" class="github"><i class="bi bi-github"></i></a>
         <a href="https://stackoverflow.com/users/21739841/cutecomcat" class="stack-overflow"><i class="bi bi-stack-overflow"></i></a>
+        <a href="https://www.linkedin.com/in/robert-lee-b51220280/" class="linkedin"><i class="bi bi-linkedin"></i></a>
       </div>
 
     </div>
@@ -417,12 +418,12 @@
             <p><em id="edu1_name">Rochester Institute of Technology, Rochester, NY</em></p>
             <p id="edu1_comment">Qui deserunt veniam. Et sed aliquam labore tempore sed quisquam iusto autem sit. Ea vero voluptatum qui ut dignissimos deleniti nerada porti sand markend</p>
           </div>
-          <div class="resume-item">
+          <!-- <div class="resume-item">
             <h4 id="edu2_degree">Bachelor of Fine Arts &amp; Graphic Design</h4>
             <h5 id="edu2_period">2010 - 2014</h5>
             <p><em id="edu2_name">Rochester Institute of Technology, Rochester, NY</em></p>
             <p id="edu2_comment">Quia nobis sequi est occaecati aut. Repudiandae et iusto quae reiciendis et quis Eius vel ratione eius unde vitae rerum voluptates asperiores voluptatem Earum molestiae consequatur neque etlon sader mart dila</p>
-          </div>
+          </div> -->
         </div>
         <div class="col-lg-6">
           <h3 class="resume-title">Professional Experience</h3>
@@ -439,7 +440,7 @@
             </ul>
             </p>
           </div>
-          <div class="resume-item">
+          <!-- <div class="resume-item">
             <h4 id="exp2_role">Graphic design specialist</h4>
             <h5 id="exp2_period">2017 - 2018</h5>
             <p><em id="exp2_company">Stepping Stone Advertising, New York, NY</em></p>
@@ -451,7 +452,7 @@
               <li>Responsible for writing automated tests to ensure the quality and reliability of our code.</li>
             </ul>
             </p>
-          </div>
+          </div> -->
         </div>
       </div>
 
@@ -698,11 +699,11 @@
             <i class="bx bx-share-alt"></i>
             <h3>Social Profiles</h3>
             <div class="social-links">
-              <a href="https://discord.gg/Ex4nsyw2" class="twitter"><i class="bi bi-discord"></i></a>
-              <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+              <a href="https://discord.gg/Ex4nsyw2" class="discord"><i class="bi bi-discord"></i></a>
+              <a href="mailto:pearldevman@gmail.com" class="google"><i class="bi bi-google"></i></a>
               <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
-              <a href="live:.cid.cb92869e136013ea" class="google-plus"><i class="bi bi-skype"></i></a>
-              <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+              <a href="skype:live:.cid.cb92869e136013ea?chat" class="google-plus"><i class="bi bi-skype"></i></a>
+              <a href="https://www.linkedin.com/in/robert-lee-b51220280/" class="linkedin"><i class="bi bi-linkedin"></i></a>
             </div>
           </div>
         </div>
@@ -790,16 +791,16 @@
         document.getElementById("edu1_degree").innerHTML = data.education[0].degree
         document.getElementById("edu1_period").innerHTML = data.education[0].period
         document.getElementById("edu1_comment").innerHTML = data.education[0].comment
-        document.getElementById("edu2_name").innerHTML = data.education[1].name
-        document.getElementById("edu2_degree").innerHTML = data.education[1].degree
-        document.getElementById("edu2_period").innerHTML = data.education[1].period
-        document.getElementById("edu2_comment").innerHTML = data.education[1].comment
+        // document.getElementById("edu2_name").innerHTML = data.education[1].name
+        // document.getElementById("edu2_degree").innerHTML = data.education[1].degree
+        // document.getElementById("edu2_period").innerHTML = data.education[1].period
+        // document.getElementById("edu2_comment").innerHTML = data.education[1].comment
         document.getElementById("exp1_company").innerHTML = data.experience[0].company
         document.getElementById("exp1_role").innerHTML = data.experience[0].role
         document.getElementById("exp1_period").innerHTML = data.experience[0].period
-        document.getElementById("exp2_company").innerHTML = data.experience[1].company
-        document.getElementById("exp2_role").innerHTML = data.experience[1].role
-        document.getElementById("exp2_period").innerHTML = data.experience[1].period
+        // document.getElementById("exp2_company").innerHTML = data.experience[1].company
+        // document.getElementById("exp2_role").innerHTML = data.experience[1].role
+        // document.getElementById("exp2_period").innerHTML = data.experience[1].period
         document.getElementById("user_address_contact").innerHTML = data.address+", "+data.city
         document.getElementById("user_email_contact").innerHTML = data.email
         document.getElementById("user_phone_contact").innerHTML = data.phone
